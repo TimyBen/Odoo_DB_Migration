@@ -1,0 +1,147 @@
+<mappings>
+    <mapping>
+        <old_model>product_category</old_model>
+        <new_model>product_category</new_model>
+        <start_id>1</start_id>
+
+        <defaults>
+            <default>
+                <field>parent_path</field>
+                <value>1</value>
+            </default>
+        </defaults>
+        <fields>
+            <field>
+                <old_field>name</old_field>
+                <new_field>name</new_field>
+            </field>
+             <field>
+                <old_field>name</old_field>
+                <new_field>complete_name</new_field>
+            </field>
+            <field>
+                <old_field>create_uid</old_field>
+                <new_field>create_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>parent_right</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>display_name</old_field>
+                <new_field>display_name</new_field>
+                <skip></skip>
+            </field>
+            <field>
+                <old_field>__last_update</old_field>
+                <new_field>__last_update</new_field>
+            <skip /></field>
+            <field>
+                <old_field>write_uid</old_field>
+                <new_field>write_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>parent_id</old_field>
+                <new_field>parent_id</new_field>
+            </field>
+            <field>
+                <old_field>parent_left</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>write_date</old_field>
+                <new_field>write_date</new_field>
+            </field>
+            <field>
+                <old_field>product_count</old_field>
+                <new_field>product_count</new_field>
+            <skip /></field>
+            <field>
+                <old_field>create_date</old_field>
+                <new_field>create_date</new_field>
+            </field>
+            <field>
+                <old_field>child_id</old_field>
+                <new_field>child_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>type</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>id</old_field>
+                <new_field>id</new_field>
+            </field>
+            <field>
+                <old_field>property_account_expense_categ_id</old_field>
+                <new_field>property_account_expense_categ_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_account_income_categ_id</old_field>
+                <new_field>property_account_income_categ_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>route_ids</old_field>
+                <new_field>route_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>total_route_ids</old_field>
+                <new_field>total_route_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>removal_strategy_id</old_field>
+                <new_field>removal_strategy_id</new_field>
+            </field>
+            <field>
+                <old_field>property_stock_valuation_account_id</old_field>
+                <new_field>property_stock_valuation_account_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>ref</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_stock_account_output_categ_id</old_field>
+                <new_field>property_stock_account_output_categ_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_valuation</old_field>
+                <new_field>property_valuation</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_cost_method</old_field>
+                <new_field>property_cost_method</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_stock_account_input_categ_id</old_field>
+                <new_field>property_stock_account_input_categ_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_stock_journal</old_field>
+                <new_field>property_stock_journal</new_field>
+            <skip /></field>
+            <field>
+                <old_field>property_account_creditor_price_difference_categ</old_field>
+                <new_field>property_account_creditor_price_difference_categ</new_field>
+            <skip /></field>
+            <field>
+                <old_field />
+                <new_field>putaway_rule_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>packaging_reserve_method</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>complete_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>parent_path</new_field>
+            </field>
+        </fields>
+    </mapping>
+</mappings>

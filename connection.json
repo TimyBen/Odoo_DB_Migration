@@ -1,0 +1,14 @@
+{
+  "old_db" : {
+    "host" : "192.168.113.111",
+    "db" : "test_odoo_db",
+    "user" : "test_db",
+    "password" : "3ZALvIsorUg3YWzI"
+  },
+  "new_db" : {
+    "host" : "localhost",
+    "db" : "ontw_odoo_db_migratie",
+    "user" : "ontw_db",
+    "password" : "Q9c7KMzQW4qkqL8d"
+  }
+}

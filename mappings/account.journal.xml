@@ -1,0 +1,429 @@
+<mappings>
+    <mapping>
+        <old_model>account_journal</old_model>
+        <new_model>account_journal</new_model>
+        <start_id>1</start_id>
+        <defaults>
+            <default>
+                <field>invoice_reference_type</field>
+                <value>partner</value>
+            </default>
+                        <default>
+                <field>invoice_reference_model</field>
+                <value>odoo</value>
+            </default>
+        </defaults>
+        <fields>
+            <field>
+                <old_field>display_name</old_field>
+                <new_field>display_name</new_field>
+            <skip /></field>
+            <field>
+                <old_field>default_credit_account_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>code</old_field>
+                <new_field>code</new_field>
+            </field>
+            <field>
+                <old_field>create_date</old_field>
+                <new_field>create_date</new_field>
+            </field>
+            <field>
+                <old_field>sequence</old_field>
+                <new_field>sequence</new_field>
+            </field>
+            <field>
+                <old_field>write_uid</old_field>
+                <new_field>write_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>currency_id</old_field>
+                <new_field>currency_id</new_field>
+            </field>
+            <field>
+                <old_field>at_least_one_inbound</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>account_control_ids</old_field>
+                <new_field>account_control_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>bank_statements_source</old_field>
+                <new_field>bank_statements_source</new_field>
+            </field>
+            <field>
+                <old_field>bank_account_id</old_field>
+                <new_field>bank_account_id</new_field>
+            </field>
+            <field>
+                <old_field>create_uid</old_field>
+                <new_field>create_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>__last_update</old_field>
+                <new_field>__last_update</new_field>
+            <skip /></field>
+            <field>
+                <old_field>group_invoice_lines</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>company_id</old_field>
+                <new_field>company_id</new_field>
+            </field>
+            <field>
+                <old_field>id</old_field>
+                <new_field>id</new_field>
+            </field>
+            <field>
+                <old_field>outbound_payment_method_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>profit_account_id</old_field>
+                <new_field>profit_account_id</new_field>
+            </field>
+            <field>
+                <old_field>display_on_footer</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>bank_acc_number</old_field>
+                <new_field>bank_acc_number</new_field>
+            <skip /></field>
+            <field>
+                <old_field>kanban_dashboard</old_field>
+                <new_field>kanban_dashboard</new_field>
+            <skip /></field>
+            <field>
+                <old_field>default_debit_account_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>show_on_dashboard</old_field>
+                <new_field>show_on_dashboard</new_field>
+            </field>
+            <field>
+                <old_field>kanban_dashboard_graph</old_field>
+                <new_field>kanban_dashboard_graph</new_field>
+            <skip /></field>
+            <field>
+                <old_field>inbound_payment_method_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>type_control_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>sequence_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>write_date</old_field>
+                <new_field>write_date</new_field>
+            </field>
+            <field>
+                <old_field>refund_sequence_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>loss_account_id</old_field>
+                <new_field>loss_account_id</new_field>
+            </field>
+            <field>
+                <old_field>update_posted</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>name</old_field>
+                <new_field>name</new_field>
+            </field>
+            <field>
+                <old_field>type</old_field>
+                <new_field>type</new_field>
+            </field>
+            <field>
+                <old_field>bank_id</old_field>
+                <new_field>bank_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>at_least_one_outbound</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>refund_sequence</old_field>
+                <new_field>refund_sequence</new_field>
+            </field>
+            <field>
+                <old_field>belongs_to_company</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>company_partner_id</old_field>
+                <new_field>company_partner_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>include_in_export</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>statement_import_auto_reconcile_rule_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field />
+                <new_field>next_link_synchronization</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>expiring_synchronization_due_day</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>account_online_account_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>account_online_link_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>account_online_link_state</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_needaction_counter</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>inbound_payment_order_only</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>outbound_payment_order_only</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>current_statement_balance</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_statement_lines</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>alias_domain</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>default_account_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>default_account_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_is_follower</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_follower_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_partner_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_message</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_attachment_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sale_activity_note</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>available_payment_method_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>color</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>entries_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_sequence_holes</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_calendar_event_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_user_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_type_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_date_deadline</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>my_activity_date_deadline</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_summary</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_main_attachment_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>journal_group_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>selected_payment_method_codes</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>json_activity_data</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>suspense_account_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_state</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_type_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_decoration</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_needaction</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error_counter</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_sms_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>active</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>restrict_mode_hash_table</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>country_code</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>payment_sequence</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sequence_override_regex</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>inbound_payment_method_line_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>outbound_payment_method_line_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sale_activity_type_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sale_activity_user_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>alias_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>alias_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>secure_sequence_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_message_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>invoice_reference_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>invoice_reference_model</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>expiring_synchronization_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>edi_format_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>compatible_edi_ids</new_field>
+            </field>
+        </fields>
+    </mapping>
+</mappings>

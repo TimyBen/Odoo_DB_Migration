@@ -1,0 +1,2068 @@
+<mappings>
+    <mapping>
+        <old_model>product_template</old_model>
+        <new_model>product_template</new_model>
+        <start_id>5</start_id>
+        <defaults>
+                <default>
+                    <field>base_unit_count</field>
+                    <value>1</value>
+                </default>
+        </defaults>
+        <fields>
+            <field>
+                <old_field>credit_policy_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>credit_control_line_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_next_action_date</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_next_action</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_responsible_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_note</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>manual_followup</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>comment</old_field>
+                <new_field>comment</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website</old_field>
+                <new_field>website</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>create_date</old_field>
+                <new_field>create_date</new_field>
+            </field>
+            <field>
+                <old_field>color</old_field>
+                <new_field>color</new_field>
+            </field>
+            <field>
+                <old_field>image</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>company_type</old_field>
+                <new_field>company_type</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>tz_offset</old_field>
+                <new_field>tz_offset</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>active</old_field>
+                <new_field>active</new_field>
+            </field>
+            <field>
+                <old_field>contact_address</old_field>
+                <new_field>contact_address</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>supplier</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>id</old_field>
+                <new_field>id</new_field>
+            </field>
+            <field>
+                <old_field>display_name</old_field>
+                <new_field>display_name</new_field>
+            <skip /></field>
+            <field>
+                <old_field>title</old_field>
+                <new_field>title</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>self</old_field>
+                <new_field>self</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>company_id</old_field>
+                <new_field>company_id</new_field>
+            </field>
+            <field>
+                <old_field>email_formatted</old_field>
+                <new_field>email_formatted</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>commercial_company_name</old_field>
+                <new_field>commercial_company_name</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>parent_id</old_field>
+                <new_field>parent_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>employee</old_field>
+                <new_field>employee</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>ref</old_field>
+                <new_field>ref</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>is_company</old_field>
+                <new_field>is_company</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>function</old_field>
+                <new_field>function</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>lang</old_field>
+                <new_field>lang</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>fax</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>bank_ids</old_field>
+                <new_field>bank_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>parent_name</old_field>
+                <new_field>parent_name</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>street2</old_field>
+                <new_field>street2</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>barcode</old_field>
+                <new_field>barcode</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>child_ids</old_field>
+                <new_field>child_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>user_ids</old_field>
+                <new_field>user_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>image_medium</old_field>
+                <new_field>image_medium</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>write_date</old_field>
+                <new_field>write_date</new_field>
+            </field>
+            <field>
+                <old_field>date</old_field>
+                <new_field>date</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>tz</old_field>
+                <new_field>tz</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>write_uid</old_field>
+                <new_field>write_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>customer</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>create_uid</old_field>
+                <new_field>create_uid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>credit_limit</old_field>
+                <new_field>credit_limit</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>user_id</old_field>
+                <new_field>user_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>mobile</old_field>
+                <new_field>mobile</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>type</old_field>
+                <new_field>type</new_field>
+                <function>process_type</function>
+            </field>
+            <field>
+                <old_field>__last_update</old_field>
+                <new_field>__last_update</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>image_small</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>partner_share</old_field>
+                <new_field>partner_share</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>category_id</old_field>
+                <new_field>category_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>commercial_partner_id</old_field>
+                <new_field>commercial_partner_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>im_status</old_field>
+                <new_field>im_status</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>birthdate_date</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>birthdate</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>gender</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>notify_email</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_follower_ids</old_field>
+                <new_field>message_follower_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_channel_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_last_post</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_partner_ids</old_field>
+                <new_field>message_partner_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_ids</old_field>
+                <new_field>message_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>opt_out</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_is_follower</old_field>
+                <new_field>message_is_follower</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_needaction</old_field>
+                <new_field>message_needaction</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_unread_counter</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>channel_ids</old_field>
+                <new_field>channel_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_unread</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_bounce</old_field>
+                <new_field>message_bounce</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>message_needaction_counter</old_field>
+                <new_field>message_needaction_counter</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>signup_valid</old_field>
+                <new_field>signup_valid</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>signup_token</old_field>
+                <new_field>signup_token</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>signup_url</old_field>
+                <new_field>signup_url</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>signup_type</old_field>
+                <new_field>signup_type</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>signup_expiration</old_field>
+                <new_field>signup_expiration</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_date_deadline</old_field>
+                <new_field>activity_date_deadline</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_type_id</old_field>
+                <new_field>activity_type_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_user_id</old_field>
+                <new_field>activity_user_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_ids</old_field>
+                <new_field>activity_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_state</old_field>
+                <new_field>activity_state</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>activity_summary</old_field>
+                <new_field>activity_summary</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_product_pricelist</old_field>
+                <new_field>property_product_pricelist</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>team_id</old_field>
+                <new_field>team_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>trust</old_field>
+                <new_field>trust</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>bank_account_count</old_field>
+                <new_field>bank_account_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>contracts_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_supplier_payment_term_id</old_field>
+                <new_field>property_supplier_payment_term_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>contract_ids</old_field>
+                <new_field>contract_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>debit_limit</old_field>
+                <new_field>debit_limit</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>total_invoiced</old_field>
+                <new_field>total_invoiced</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>has_unreconciled_entries</old_field>
+                <new_field>has_unreconciled_entries</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>currency_id</old_field>
+                <new_field>currency_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>debit</old_field>
+                <new_field>debit</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>journal_item_count</old_field>
+                <new_field>journal_item_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>issued_total</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_account_payable_id</old_field>
+                <new_field>property_account_payable_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>credit</old_field>
+                <new_field>credit</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>invoice_ids</old_field>
+                <new_field>invoice_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_payment_term_id</old_field>
+                <new_field>property_payment_term_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>ref_company_ids</old_field>
+                <new_field>ref_company_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>last_time_entries_checked</old_field>
+                <new_field>last_time_entries_checked</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>invoice_warn_msg</old_field>
+                <new_field>invoice_warn_msg</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_account_receivable_id</old_field>
+                <new_field>property_account_receivable_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>invoice_warn</old_field>
+                <new_field>invoice_warn</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_account_position_id</old_field>
+                <new_field>property_account_position_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>use_manual_salutations</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>salutation_manual</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>salutation</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>salutation_address_manual</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>salutation_address</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>partner_company_type_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>id_numbers</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>search_relation_date</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>relation_all_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>search_relation_partner_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>relation_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>search_relation_type_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>search_relation_partner_category_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>contract_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>coc_registration_number</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>partner_above_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>has_partner_above</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>partner_above_hierarchy</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_token_ids</old_field>
+                <new_field>payment_token_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>payment_token_count</old_field>
+                <new_field>payment_token_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_order_count</old_field>
+                <new_field>sale_order_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_warn_msg</old_field>
+                <new_field>sale_warn_msg</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_warn</old_field>
+                <new_field>sale_warn</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_order_ids</old_field>
+                <new_field>sale_order_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_stock_customer</old_field>
+                <new_field>property_stock_customer</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>picking_warn</old_field>
+                <new_field>picking_warn</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>picking_warn_msg</old_field>
+                <new_field>picking_warn_msg</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_stock_supplier</old_field>
+                <new_field>property_stock_supplier</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>customer_payment_mode_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>supplier_payment_mode_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>subscription_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>distribution_list_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>membership_line_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>associate_member</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>membership</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>valid_mandate_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mandate_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>alias</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_delivery_carrier_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>woonbond_regio_id</old_field>
+                <new_field>woonbond_regio_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>quickentry_zip</old_field>
+                <new_field>quickentry_zip</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>woonbond</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>houses</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>members</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>quickentry_street_number</old_field>
+                <new_field>quickentry_street_number</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>alternative_email</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>sort_name</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recent_activity</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>purchase_order_count</old_field>
+                <new_field>purchase_order_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>supplier_invoice_count</old_field>
+                <new_field>supplier_invoice_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_purchase_currency_id</old_field>
+                <new_field>property_purchase_currency_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>purchase_warn</old_field>
+                <new_field>purchase_warn</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>purchase_warn_msg</old_field>
+                <new_field>purchase_warn_msg</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>termination_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>direct_member</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mailchimp_interest_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mailchimp_deleted_list_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mailchimp_list_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mailchimp_last_email</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>mailchimp_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>other_reason_text</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>reason_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_description</old_field>
+                <new_field>website_description</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_meta_keywords</old_field>
+                <new_field>website_meta_keywords</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_url</old_field>
+                <new_field>website_url</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_meta_description</old_field>
+                <new_field>website_meta_description</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_meta_title</old_field>
+                <new_field>website_meta_title</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_published</old_field>
+                <new_field>website_published</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_short_description</old_field>
+                <new_field>website_short_description</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>last_website_so_id</old_field>
+                <new_field>last_website_so_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>mailchimp_state</old_field>
+                <new_field>mailchimp_state</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>hierarchy_level</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>state_id</old_field>
+                <new_field>state_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>street</old_field>
+                <new_field>street</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>current_contract</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>deadline_stopping_membership</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>firstname</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>country_id</old_field>
+                <new_field>country_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>company_name</old_field>
+                <new_field>company_name</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>city</old_field>
+                <new_field>city</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>zip</old_field>
+                <new_field>zip</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>name</old_field>
+                <new_field>name</new_field>
+                <function>process_name</function>
+            </field>
+            <field>
+                <old_field>phone</old_field>
+                <new_field>phone</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>vat</old_field>
+                <new_field>vat</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>email</old_field>
+                <new_field>email</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>attended_registration_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>registrations</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>registration_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>event_count</old_field>
+                <new_field>event_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>task_ids</old_field>
+                <new_field>task_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>task_count</old_field>
+                <new_field>task_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>lastname</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>infix</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>initials</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>street_affix</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>street_name</old_field>
+                <new_field>street_name</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>street_number</old_field>
+                <new_field>street_number</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field />
+                <new_field>online_partner_information</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>account_represented_company_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>followup_next_action_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>unreconciled_aml_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>unpaid_invoice_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>unpaid_invoices_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>total_due</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>total_overdue</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>followup_status</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>followup_line_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>followup_reminder_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>followup_responsible_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_calendar_event_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>meeting_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>meeting_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>calendar_last_notif_ack</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>opportunity_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>opportunity_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>receipt_reminder_email</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>reminder_date_before_receipt</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>purchase_line_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>on_time_rate</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>employee_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>employees_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_seo_optimized</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_meta_og_img</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>seo_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>street_number2</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>city_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>country_enforce_cities</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>zip_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>image_1920</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>image_1024</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>image_512</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>image_256</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>image_128</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>avatar_1920</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>avatar_1024</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>avatar_512</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>avatar_256</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>avatar_128</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>active_lang_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>same_vat_partner_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>same_company_registry_partner_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>company_registry</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>country_code</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_latitude</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_longitude</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_public</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>industry_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_message</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error_counter</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_attachment_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_main_attachment_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>email_normalized</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_blacklisted</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_type_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>my_activity_date_deadline</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_decoration</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>contact_address_complete</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>ocn_token</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_gid</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>additional_info</new_field>
+            </field>
+            <field>
+                <old_field>website_message_ids</old_field>
+                <new_field>website_message_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_sms_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>phone_sanitized</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>phone_sanitized_blacklisted</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>phone_blacklisted</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>mobile_blacklisted</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>phone_mobile_search</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>customer_rank</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>use_partner_credit_limit</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_credit_limit</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>supplier_rank</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>duplicated_bank_account_partners_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_published</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>can_publish</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>visitor_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>ticket_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sla_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>additional_parent_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>additional_children_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>contact_product_exchange_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>cc_contact_function_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>relation_publication_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_membership_reason_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_newsletter_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>registered_events</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>membership_reason_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>other_membership_reason</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>document_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>signature_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>certifications_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>certifications_company_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscription_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>user_livechat_username</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscribe_to_default_mailing</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>mailing_contact_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscription_interests</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>contact_on_mailchimp</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>requires_mailchimp_sync</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>vies_failed_message</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>l10n_nl_kvk</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>l10n_nl_oin</new_field>
+            </field>
+            <field>
+                <old_field>attachment_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>appearance_date</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>isbn</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>nur_code</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>size_axb_cm</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>edition_print</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>size_page_number</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_price_difference_other</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_price_other</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_public_price_other</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>warranty</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>list_price</old_field>
+                <new_field>list_price</new_field>
+            </field>
+            <field>
+                <old_field>weight</old_field>
+                <new_field>weight</new_field>
+            </field>
+            <field>
+                <old_field>sequence</old_field>
+                <new_field>sequence</new_field>
+            </field>
+            <field>
+                <old_field>standard_price</old_field>
+                <new_field>standard_price</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>attribute_line_ids</old_field>
+                <new_field>attribute_line_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>uom_id</old_field>
+                <new_field>uom_id</new_field>
+            </field>
+            <field>
+                <old_field>description_purchase</old_field>
+                <new_field>description_purchase</new_field>
+            </field>
+            <field>
+                <old_field>default_code</old_field>
+                <new_field>default_code</new_field>
+            </field>
+            <field>
+                <old_field>sale_ok</old_field>
+                <new_field>sale_ok</new_field>
+            </field>
+            <field>
+                <old_field>item_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>purchase_ok</old_field>
+                <new_field>purchase_ok</new_field>
+            </field>
+            <field>
+                <old_field>uom_po_id</old_field>
+                <new_field>uom_po_id</new_field>
+            </field>
+            <field>
+                <old_field>pricelist_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>description_sale</old_field>
+                <new_field>description_sale</new_field>
+                <function>process_description_sale</function>
+            </field>
+            <field>
+                <old_field>description</old_field>
+                <new_field>description</new_field>
+            </field>
+            <field>
+                <old_field>price</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>volume</old_field>
+                <new_field>volume</new_field>
+            </field>
+            <field>
+                <old_field>categ_id</old_field>
+                <new_field>categ_id</new_field>
+            </field>
+            <field>
+                <old_field>product_variant_count</old_field>
+                <new_field>product_variant_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>rental</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>product_variant_ids</old_field>
+                <new_field>product_variant_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>packaging_ids</old_field>
+                <new_field>packaging_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>lst_price</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>seller_ids</old_field>
+                <new_field>seller_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>product_variant_id</old_field>
+                <new_field>product_variant_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_account_income_id</old_field>
+                <new_field>property_account_income_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>supplier_taxes_id</old_field>
+                <new_field>supplier_taxes_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_account_expense_id</old_field>
+                <new_field>property_account_expense_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>taxes_id</old_field>
+                <new_field>taxes_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_line_warn</old_field>
+                <new_field>sale_line_warn</new_field>
+            </field>
+            <field>
+                <old_field>sale_line_warn_msg</old_field>
+                <new_field>sale_line_warn_msg</new_field>
+            </field>
+            <field>
+                <old_field>sales_count</old_field>
+                <new_field>sales_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>track_service</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>invoice_policy</old_field>
+                <new_field>invoice_policy</new_field>
+            </field>
+            <field>
+                <old_field>expense_policy</old_field>
+                <new_field>expense_policy</new_field>
+            </field>
+            <field>
+                <old_field>nbr_reordering_rules</old_field>
+                <new_field>nbr_reordering_rules</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_stock_procurement</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>incoming_qty</old_field>
+                <new_field>incoming_qty</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>tracking</old_field>
+                <new_field>tracking</new_field>
+            </field>
+            <field>
+                <old_field>qty_available</old_field>
+                <new_field>qty_available</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>location_id</old_field>
+                <new_field>location_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>virtual_available</old_field>
+                <new_field>virtual_available</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>route_from_categ_ids</old_field>
+                <new_field>route_from_categ_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>description_picking</old_field>
+                <new_field>description_picking</new_field>
+            </field>
+            <field>
+                <old_field>warehouse_id</old_field>
+                <new_field>warehouse_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>sale_delay</old_field>
+                <new_field>sale_delay</new_field>
+            </field>
+            <field>
+                <old_field>route_ids</old_field>
+                <new_field>route_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>outgoing_qty</old_field>
+                <new_field>outgoing_qty</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_stock_inventory</old_field>
+                <new_field>property_stock_inventory</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>property_stock_production</old_field>
+                <new_field>property_stock_production</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>reordering_max_qty</old_field>
+                <new_field>reordering_max_qty</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>reordering_min_qty</old_field>
+                <new_field>reordering_min_qty</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>publishing_frequency_interval</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>publication</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>publishing_frequency_type</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>distribution_type</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_valuation</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_stock_account_input</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_stock_account_output</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_cost_method</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>cost_method</old_field>
+                <new_field>cost_method</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>valuation</old_field>
+                <new_field>valuation</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>visible_on_website</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>notify_low_stock</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>followers_notified_low_stock</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>qty_available_inform</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>hs_code</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>house_limit</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>based_on_houses</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>purchase_line_warn_msg</old_field>
+                <new_field>purchase_line_warn_msg</new_field>
+            </field>
+            <field>
+                <old_field>purchase_method</old_field>
+                <new_field>purchase_method</new_field>
+            </field>
+            <field>
+                <old_field>purchase_line_warn</old_field>
+                <new_field>purchase_line_warn</new_field>
+            </field>
+            <field>
+                <old_field>purchase_count</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>property_account_creditor_price_difference</old_field>
+                <new_field>property_account_creditor_price_difference</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>is_contract</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>contract_template_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>rating_ids</old_field>
+                <new_field>rating_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>availability</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>rating_count</old_field>
+                <new_field>rating_count</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>public_categ_ids</old_field>
+                <new_field>public_categ_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_style_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_sequence</old_field>
+                <new_field>website_sequence</new_field>
+            </field>
+            <field>
+                <old_field>product_image_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>accessory_product_ids</old_field>
+                <new_field>accessory_product_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_public_price</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_price_difference</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_price</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>rating_last_value</old_field>
+                <new_field>rating_last_value</new_field>
+            </field>
+            <field>
+                <old_field>alternative_product_ids</old_field>
+                <new_field>alternative_product_ids</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>availability_warning</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>website_size_y</old_field>
+                <new_field>website_size_y</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>website_size_x</old_field>
+                <new_field>website_size_x</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>event_ok</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>project_id</old_field>
+                <new_field>project_id</new_field>
+                <skip />
+            </field>
+            <field>
+                <old_field>type</old_field>
+                <new_field>detailed_type</new_field>
+                <function>process_detailed_type</function>
+            </field>
+            <field>
+                <old_field />
+                <new_field>responsible_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>description_pickingout</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>description_pickingin</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_available_route_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>nbr_moves_in</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>nbr_moves_out</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_on_hand_qty_status_button</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_forecasted_qty_status_button</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>purchased_product_qty</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_to_purchase</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_tracking</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>project_template_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_policy</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_feedback</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_image</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_avg</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_avg_text</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_percentage_satisfaction</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_text</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_ribbon_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>product_template_image_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>base_unit_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>base_unit_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>base_unit_price</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>base_unit_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>compare_list_price</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>allow_out_of_stock_order</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>available_threshold</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_availability</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>out_of_stock_message</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_upsell_threshold</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_upsell_threshold_ratio</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>cost_currency_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>volume_uom_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>weight_uom_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>uom_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>variant_seller_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_product_variant</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>valid_product_template_attribute_line_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>pricelist_item_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>can_image_1024_be_zoomed</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_configurable_attributes</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>product_tooltip</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>priority</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>product_tag_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>tax_string</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>account_tag_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>service_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>visible_expense_policy</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>visible_qty_configurator</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>optional_product_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>documents_allowed_company_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>project_template_use_documents</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>template_folder_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>product_pricing_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_temporal</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>display_price</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>recurring_invoice</new_field>
+            </field>
+        </fields>
+    </mapping>
+</mappings>

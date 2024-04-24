@@ -1,0 +1,854 @@
+<mappings>
+    <mapping>
+        <old_model>account_analytic_invoice_line</old_model>
+        <new_model>sale_order</new_model>
+        <start_id>1</start_id>
+        <defaults>
+            <default>
+                <field>is_subscription</field>
+                <value>True</value>
+            </default>
+            <default>
+                <field>partner_invoice_id</field>
+                <value>2</value>
+            </default>
+            <default>
+                <field>partner_shipping_id</field>
+                <value>2</value>
+            </default>
+            <default>
+                <field>warehouse_id</field>
+                <value>1</value>
+            </default>
+            <default>
+                <field>picking_policy</field>
+                <value>one</value>
+            </default>
+        </defaults>
+        <fields>
+            <field>
+                <old_field>create_date</old_field>
+                <new_field>create_date</new_field>
+                <datatype>c_datetime</datatype>
+            </field>
+            <field>
+                <old_field>quantity</old_field>
+                <new_field>create_date</new_field>
+            </field>
+            <field>
+                <old_field>message_follower_ids</old_field>
+                <new_field>message_follower_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>code</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_needaction</old_field>
+                <new_field>message_needaction</new_field>
+            <skip /></field>
+            <field>
+                <old_field>message_channel_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_partner_ids</old_field>
+                <new_field>message_partner_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>write_uid</old_field>
+                <new_field>write_uid</new_field>
+                <skip></skip>
+            </field>
+            <field>
+                <old_field>currency_id</old_field>
+                <new_field>currency_id</new_field>
+            <skip /></field>
+            <field>
+                <old_field>partner_id</old_field>
+                <new_field>partner_id</new_field>
+            </field>
+            <field>
+                <old_field>id</old_field>
+                <new_field>id</new_field>
+            </field>
+            <field>
+                <old_field>create_uid</old_field>
+                <new_field>create_uid</new_field>
+                <skip></skip>
+            </field>
+            <field>
+                <old_field>display_name</old_field>
+                <new_field>display_name</new_field>
+            <skip /></field>
+            <field>
+                <old_field>message_is_follower</old_field>
+                <new_field>message_is_follower</new_field>
+            <skip /></field>
+            <field>
+                <old_field>__last_update</old_field>
+                <new_field>__last_update</new_field>
+            <skip /></field>
+            <field>
+                <old_field>message_last_post</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>company_id</old_field>
+                <new_field>company_id</new_field>
+            </field>
+            <field>
+                <old_field>message_ids</old_field>
+                <new_field>message_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>debit</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_unread_counter</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>write_date</old_field>
+                <new_field>write_date</new_field>
+            </field>
+            <field>
+                <old_field>active</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>balance</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>name</old_field>
+                <new_field>name</new_field>
+            </field>
+            <field>
+                <old_field>credit</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>tag_ids</old_field>
+                <new_field>tag_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>line_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_unread</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>message_needaction_counter</old_field>
+                <new_field>message_needaction_counter</new_field>
+            <skip /></field>
+            <field>
+                <old_field>date_end</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>user_id</old_field>
+                <new_field>user_id</new_field>
+            </field>
+            <field>
+                <old_field>recurring_next_date</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recurring_invoicing_type</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>journal_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recurring_invoices</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recurring_interval</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>date_start</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>pricelist_id</old_field>
+                <new_field>pricelist_id</new_field>
+                <function>process_pricelist_id</function>
+            </field>
+            <field>
+                <old_field>create_invoice_visibility</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>contract_template_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>invoice_name</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recurring_rule_type</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>recurring_invoice_line_ids</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>payment_mode_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>months_to_pay</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>date_cancel</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>sale_order_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>project_count</old_field>
+                <new_field>project_count</new_field>
+            <skip /></field>
+            <field>
+                <old_field>project_ids</old_field>
+                <new_field>project_ids</new_field>
+            <skip /></field>
+            <field>
+                <old_field>company_uom_id</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field>use_tasks</old_field>
+                <new_field />
+            </field>
+            <field>
+                <old_field />
+                <new_field>expected_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>incoterm</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>incoterm_location</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>picking_policy</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>warehouse_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>picking_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>delivery_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>delivery_status</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>procurement_group_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>effective_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>json_popover</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_json_popover</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_calendar_event_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>opportunity_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>purchase_order_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>manual_publication</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>tasks_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>tasks_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>visible_project</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>project_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>milestone_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_product_milestone</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_order_line</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>cart_quantity</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>only_services</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_abandoned_cart</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>cart_recovery_email_sent</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>shop_warning</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>client_order_ref</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sepa_authorised</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>timesheet_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>timesheet_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>timesheet_encode_uom_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>timesheet_total_duration</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>campaign_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>source_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>medium_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_state</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_user_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_type_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_type_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_date_deadline</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>my_activity_date_deadline</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_summary</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_decoration</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>activity_exception_icon</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>has_message</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>tax_totals</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_error_counter</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_attachment_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_main_attachment_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>website_message_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>message_has_sms_error</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>access_url</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>access_token</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>access_warning</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>state</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>commitment_date</new_field>
+            </field>
+            <field>
+                <old_field>create_date</old_field>
+                <new_field>date_order</new_field>
+                <datatype>c_datetime</datatype>
+<!--                TODO : Find out if this is correct-->
+            </field>
+            <field>
+                <old_field />
+                <new_field>origin</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>reference</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>require_signature</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>require_payment</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>signature</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>signed_by</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>signed_on</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>validity_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>note</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_invoice_id</new_field>
+                <skip></skip>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_shipping_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>fiscal_position_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>payment_term_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>currency_rate</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>team_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>order_line</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>amount_untaxed</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>amount_tax</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>amount_total</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>invoice_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>invoice_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>invoice_status</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>transaction_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>authorized_transaction_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>analytic_account_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>amount_undiscounted</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>country_code</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_expired</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>partner_credit_warning</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>tax_country_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>terms_type</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>type_name</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_update_fpos</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_update_pricelist</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sale_order_template_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>sale_order_option_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>applied_coupon_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>code_enabled_rule_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>coupon_point_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>reward_amount</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>attendee_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>disabled_auto_rewards</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>internal_note</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_value</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_feedback</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_image</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_avg</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_avg_text</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_percentage_satisfaction</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>rating_last_text</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscription_management</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_subscription</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>stage_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>end_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>archived_product_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>archived_product_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>next_invoice_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>start_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>last_invoice_date</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>recurring_live</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>recurring_monthly</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>close_reason_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>order_log_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>team_user_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>country_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>industry_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>commercial_partner_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>payment_token_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>starred_user_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>starred</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>kpi_1month_mrr_delta</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>kpi_1month_mrr_percentage</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>kpi_3months_mrr_delta</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>kpi_3months_mrr_percentage</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>percentage_satisfaction</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>health</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>stage_category</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>to_renew</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>recurrence_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_batch</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_invoice_cron</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscription_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>origin_order_id</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>subscription_child_ids</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>history_count</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>payment_exception</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>show_rec_invoice_button</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>is_upselling</new_field>
+            </field>
+            <field>
+                <old_field />
+                <new_field>renew_state</new_field>
+            </field>
+        </fields>
+    </mapping>
+</mappings>

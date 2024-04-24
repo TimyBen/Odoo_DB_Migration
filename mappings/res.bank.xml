@@ -1,0 +1,174 @@
+<mappings>
+    <mapping>
+        <old_model>res_bank</old_model>
+        <new_model>res_bank</new_model>
+        <fields>
+            <field>
+                <old_field>id</old_field>
+                <old_field_type>integer</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>id</new_field>
+                <new_field_type>integer</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>city</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>city</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>fax</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+            <skip /><skip /></field>
+            <field>
+                <old_field>name</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>name</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>zip</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>zip</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>create_uid</old_field>
+                <old_field_type>many2one</old_field_type>
+                <old_relation_field />
+                <old_relation>res.users</old_relation>
+                <new_field>create_uid</new_field>
+                <new_field_type>many2one</new_field_type>
+                <new_relation_field />
+                <new_relation>res.users</new_relation>
+            </field>
+            <field>
+                <old_field>country</old_field>
+                <old_field_type>many2one</old_field_type>
+                <old_relation_field />
+                <old_relation>res.country</old_relation>
+                <new_field>country</new_field>
+                <new_field_type>many2one</new_field_type>
+                <new_relation_field />
+                <new_relation>res.country</new_relation>
+            </field>
+            <field>
+                <old_field>street2</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>street2</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>bic</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>bic</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>phone</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>phone</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>state</old_field>
+                <old_field_type>many2one</old_field_type>
+                <old_relation_field />
+                <old_relation>res.country.state</old_relation>
+                <new_field>state</new_field>
+                <new_field_type>many2one</new_field_type>
+                <new_relation_field />
+                <new_relation>res.country.state</new_relation>
+            </field>
+            <field>
+                <old_field>street</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>street</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>write_date</old_field>
+                <old_field_type>datetime</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>write_date</new_field>
+                <new_field_type>datetime</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>active</old_field>
+                <old_field_type>boolean</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>active</new_field>
+                <new_field_type>boolean</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>create_date</old_field>
+                <old_field_type>datetime</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>create_date</new_field>
+                <new_field_type>datetime</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+            <field>
+                <old_field>write_uid</old_field>
+                <old_field_type>many2one</old_field_type>
+                <old_relation_field />
+                <old_relation>res.users</old_relation>
+                <new_field>write_uid</new_field>
+                <new_field_type>many2one</new_field_type>
+                <new_relation_field />
+                <new_relation>res.users</new_relation>
+            </field>
+            <field>
+                <old_field>email</old_field>
+                <old_field_type>char</old_field_type>
+                <old_relation_field />
+                <old_relation />
+                <new_field>email</new_field>
+                <new_field_type>char</new_field_type>
+                <new_relation_field />
+                <new_relation />
+            </field>
+        </fields>
+    </mapping>
+</mappings>
